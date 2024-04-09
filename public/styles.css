@@ -1,0 +1,103 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+
+body {
+  background-color: #dddddd;
+  width: 98%;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+  opacity: 90%;
+}
+
+header {
+  background-color: #dddddd;
+  width: 100%;
+  font-family: verdana;
+  border-radius: 25px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+header > h1, p {
+  text-align: center;
+  opacity: 80%;
+}
+
+footer {
+  background-color: #dddddd;
+  margin: auto;
+  width: 98%;
+}
+
+#img-div {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  opacity: 95%;
+}
+
+#image {
+  object-fit: cover;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+#img-caption {
+  margin-bottom: 0px;
+  position: relative;
+  transform: translate(0, 50%);
+  text-align: center;
+  padding: 0;
+  margin-top: 0px;
+  opacity: 100%;
+}
+
+#other-artwork {
+  background-color: #dddddd;
+}
+#other-artwork > h2 {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #dddddd;
+  opacity: 80%;
+}
+
+#tribute-info {
+  background-color: #dddddd;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#footer {
+  font-family: verdana;
+  display: inline-block;
+  text-align: center;
+  font-size: .75rem;
+}
+
+#footer > h2 {
+ background-color: #dddddd;
+}
